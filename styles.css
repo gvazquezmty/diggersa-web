@@ -46,6 +46,38 @@
   margin-bottom: 15px;
 }
 
+/* Preview Equipos (imagen ligera de fondo) */
+.equipos-preview {
+  background:
+    linear-gradient(
+      rgba(31, 41, 51, 0.8),
+      rgba(31, 41, 51, 0.8)
+    ),
+    url("img/equipos-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  color: var(--blanco);
+  text-align: center;
+}
+
+.equipos-preview h2 {
+  color: var(--naranja);
+}
+
+.equipos-preview p {
+  max-width: 600px;
+  margin: 15px auto;
+}
+
+.youtube {
+  background: #ff0000;
+}
+
+.youtube:hover {
+  background: #cc0000;
+}
+
 .cotizar {
   display: inline-block;
   margin-bottom: 20px;
